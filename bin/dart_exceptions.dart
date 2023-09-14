@@ -1,7 +1,7 @@
 import 'controllers/bank_controller.dart';
 import 'models/account.dart';
 
-void main() {
+/*void main() {
   // Criando o banco
   BankController bankController = BankController();
 
@@ -22,4 +22,14 @@ void main() {
 
   // Observando resultado
   print(result);
+}*/
+
+void main(){
+   //double amount = double.parse("25,33");
+   recursiveFunc(1);
+}
+
+recursiveFunc(int count){
+  print(count);
+  recursiveFunc(count + 1);
 }
