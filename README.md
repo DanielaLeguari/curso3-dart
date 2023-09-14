@@ -17,6 +17,6 @@
 2. A execução do prints foi assim :
 
 
-![](./imagens/pilha-ex.png)
+![](./imagens/pilha-2.png)
 
 
