@@ -10,38 +10,13 @@
 
 1. Observe o código abaixo:
 
-`void main() {
-  print("Started Main");
-  functionOne();
-  print("Finished main");
-}
 
-void functionOne() {
-  print("Started F01");
-  functionTwo();
-  print("Finished F01");
-}
+![](./imagens/pilha-1.png)
 
-void functionTwo() {
-  print("Started F02");
-  for (int i = 1; i <= 5; i++) {
-    print(i);
-  }
-  print("Finished F02");
-}`
 
 2. A execução do prints foi assim :
 
-`Started Main
-Started F01
-Started F02
-1
-2
-3
-4
-5
-Finished F02
-Finished F01
-Finished main
-`
+
+![](./imagens/pilha-2.png)
+
 
